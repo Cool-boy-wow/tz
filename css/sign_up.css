@@ -1,0 +1,76 @@
+/*@media screen and (max-width: 991px) {*/
+#head{
+	background-color: #1B1B1B;
+	height: 44px;
+	max-width: 991px;
+}
+#body{
+	background-color: #262626;
+	color: #999999;
+	font-family: Gotham Pro;
+}
+#icon{
+	height: 40px;
+	margin: 2px;
+}
+.input{
+	margin-bottom: 15px;
+	border: 0px black solid;
+	background-color: #262626;
+	border: 0px black solid;
+	border-bottom: 3px #999999 solid;
+	color: white;
+}
+#main{
+	align-content: center;
+	max-width: 991px;
+}
+.input-file {
+	position: relative;
+	display: inline-block;
+}
+.input-file span {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	font-size: 14px;
+	vertical-align: middle;
+	color: rgb(255 255 255);
+	text-align: center;
+	border-radius: 30px;
+	background-color: #419152;
+	line-height: 22px;
+	height: 40px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+	transition: background-color 0.2s;
+}
+.input-file input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+ 
+
+
+.input-file span {
+	background-color: #2E703A;
+}
+ 
+
+#submit{
+	background-color: red;
+	border: 0px solid black;
+	height: 40px;
+	border-radius: 30px;
+	color: white;
+	padding: 10px 20px;
+
+}
